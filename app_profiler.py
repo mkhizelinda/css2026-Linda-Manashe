@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Title of the app
-st.title("Linda Manashe Researcher Profile Page")
+st.title("Linda Manashe's Researcher Profile")
 
 # Collect basic information
 name = "Linda Manashe"
