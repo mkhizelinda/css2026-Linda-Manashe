@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Title of the app
-st.title("Researcher Profile Page with STEM Data")
+st.title("Linda Manashe Researcher Profile Page")
 
 # Collect basic information
 name = "Linda Manashe"
@@ -116,5 +116,19 @@ elif data_option == "Weather Data":
 
 # Add a contact section
 st.header("Contact Information")
-email = "mkhizelinda@gmail.com"
+email = "📧 mkhizelinda@gmail.com"
 st.write(f"You can reach {name} at {email}.")
+
+st.divider()
+
+# Important links section
+st.header("Important Links")
+st.write(
+    """
+    🔗 Google Scholar: https://scholar.google.com/citations?user=5-3N5qsAAAAJ&hl=en  
+    🔗 ORCID: https://orcid.org/0000-0003-4996-6159  
+    🔗 LinkedIn: https://www.linkedin.com/in/linda-mkhize-manashe-00068439a/  
+    """
+)
+
+st.success("Thank you for visiting my research profile")
